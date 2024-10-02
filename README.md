@@ -2,7 +2,7 @@
 
 **Objective:** Creation of a website to show my design work, both from the Interactive Media Design course and for real clients. This project helped me enhance my skills in UX/UI, Graphic Design, Motion Design, Front-end programming (JavaScript, HTML, CSS, SASS, and tools like Greensock), and Back-end development (PHP and MySQL).
 
-![Website Photo](images/readme/rodri_readme.jpg)
+![Website Photo](images/readme/rodri_readme_v2.jpg)
 
 ## Installation
 No installation required
