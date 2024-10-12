@@ -5,9 +5,18 @@ body {
 }
 
 h1 {
-    font-family: v.$h1-font-family;
+    font-family: v.$h1-desktop;
     font-size: 74px;
-    color: v.$secondary-color;
+    color: v.$accent-color;
+    margin-bottom: 10px;
+
+
+}
+
+h2 {
+    font-family: $h2-desktop;
+    font-size: 40px;
+    color: v.$accent-color;
     margin-bottom: 10px;
 
 
