@@ -4,25 +4,15 @@ body {
     font-family: v.$body-font-family;
 }
 
-h1 {
-    font-family: v.$h1-desktop;
-    font-size: 74px;
-    color: v.$accent-color;
-    margin-bottom: 10px;
-
-
-}
-
 h2 {
-    font-family: $h2-desktop;
-    font-size: 40px;
+    font-family: v.$heading-font-family;
+    font-size: 28px;
     color: v.$accent-color;
-    margin-bottom: 10px;
-
+    margin-bottom: 20px;
 
 }
 
 p{
-    line-height: 18px;
-    margin-bottom: 12px;
+    line-height: 24px;
+    margin-bottom: 20px;
 }
