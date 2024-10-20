@@ -1,0 +1,11 @@
+@use '../abstracts' as a;
+
+footer{
+    background-color: a.$accent-color;
+    color: #000;
+    height:40px;
+}
+
+footer p{
+    line-height: 45px;
+}

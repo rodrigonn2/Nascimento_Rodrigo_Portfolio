@@ -1,97 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
-    <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>HarmoniGuitars</title>
-    <!-- Link to reset or normalize before main.css
-    only choose one -->
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Nascimento</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/983615787b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-
 <body>
-    <h1 class="hidden">HarmoniGuitars</h1>
-    <header id="main-header" class="grid-con">
-        <div class="col-span-4">
-            <img src="images/logo_rnascimento.svg" id="logo">
+    <h1 class="hidden">Rodrigo Nascimento Portfolio</h1>
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="container_menu_mob col-span-full m-col-start-4 m-col-end-12 l-col-start-6 l-col-end-12">
+                <h2 class="hidden">MENU</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="#">ABOUT ME</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-start-1 col-end-4 m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4">
+                <a href="index.html"><img src="images/logo_rnascimento.svg" alt="Rodrigo Nascimento"></a>
+            </div>
+        </header>
+    </div>
+
+<div class="container">
+    <section class="full-width-grid-con" id="hero">
+        <h2 class="hidden">Hero Image</h2>
+
+        <div class="hero col-span-full m-col-start-1 m-col-end-13">
+            <h3>HELLO! I'M</h3>
+            <h2>RODRIGO</h2>
         </div>
-        <nav class="col-span-full" id="main-nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Guitars</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="grid-con" id="about-us">
-            <h2 class="col-span-full">About Us</h2>
-            <section class="col-span-4 m-col-span-6">
-                <p>In the heart of a small, picturesque town nestled between rolling hills and serene countryside,
-                    HarmoniGuitars was born. Founded in 1975 by two lifelong friends, Daniel Archer and Benjamin Harper,
-                    this company has become a symbol of passion, craftsmanship, and a deep love for music.</p>
-            </section>
-            <section class="col-span-4 m-col-span-6">
-                <p>The name "HarmoniGuitars" was inspired by their shared vision of creating instruments that would
-                    produce harmonious and soul-stirring sounds. They set out to create guitars that would blend
-                    traditional craftsmanship with innovative designs, catering to a wide range of musicians, from
-                    budding beginners to seasoned professionals.</p>
+
+        <div class="box_hero_image col-span-full m-col-start-1 m-col-end-13">
+            
+        </div>
+    </section>
+
+  </div>
+
+
+
+<!--CONTENT SECTION-->
+
+
+<section class="grid-con section_about" id="about-me">
+    <h2 class="hidden">About me</h2>
+
+    <article class="box_image_large col-span-full m-col-start-9 m-col-end-13">
+        <h2 class="hidden">ABOUT ME CONTENT</h2>
+        <div class="m-col-start-12 m-col-end-13 about-title">
+            <img src="images/IMG_RODRI.png" class="image-size-devices" alt="image about me">
+        </div>
+        <div id="high_desk" class="m-col-start-12 m-col-end-13 about-title box_highlight">
+            <p class="highlight"> In addition to my design skills, I bring curiosity, leadership, strategic vision, user advocacy, empathy, resilience, and fast learning as key soft skills.
+            </p>
+        </div>
+    </article>
+    <article class="about-text col-span-full m-col-start-1 m-col-end-7">
+        <div class="m-col-start-1 m-col-end-4 about-title">
+            <p>ABOUT ME</p>
+            <h2>WOULD YOU LIKE TO KNOW ME?</h2>
+            <p>With a background in Multimedia Design, my goal is to create and manage user-centered digital experiences that solve real-world problems and improve everyday life. By blending creativity with strategic thinking, I design impactful products that prioritize users and deliver meaningful results.</p>
+            <div id="high_mobile" class=" col-span-full about-title box_highlight_mob">
+                <p class="highlight"> In addition to my design skills, I bring curiosity, leadership, strategic vision, user advocacy, empathy, resilience, and fast learning as key soft skills.
+                </p>
+            </div>
+            <p>I utilize tools such as Figma, Adobe Photoshop, Illustrator, After Effects, and Premiere to bring my projects to life. However, my most important tools remain the simplest: pen and pencil, where every idea begins.
+            <p></p>
+            <p>I've always been curious and eager to break into the design industry. Earlier in my career, before moving to Canada, I worked as a digital project coordinator in the marketing department of a large company. These experiences provided me with a strong foundation in management, success metrics, customer experience, and even design concepts, as I collaborated with and managed designers in digital agencies.</p>    
+          
+            <p><span class="ilustrating">P.S. I love to make some Ilustrations</span></p>    
+        </div>
+        
+        </article>
+   
+</section>
+
+<section class="full-width-grid-con info_more">
+    <h2 class="hidden">WORK</h2>
+    <div class="button-container box_info col-span-full m-col-start-1 m-col-end-13">
+        <h4>WANT MORE INFO?</h4>
+        <button class="resume_button">DOWNLOAD MY RESUME</button>
+        <button class="contact_sec_button">CONTACT ME</button>
+
+    </div>
+</section>
+
+
+<section class="grid-con">
+    <h2 class="hidden">WORK</h2>
+    <div class="box_titles col-span-full m-col-start-1 m-col-end-13"><h2>SELECTED WORK</h2></div>
+    <div class="box_text col-span-full m-col-start-1 m-col-end-13"><p class="work_text">My work is grounded in clean design and provides a fluid user experience achieved through thorough research and a deep understanding of the project's objectives and needs.</p></div>  
+</section>
+<section class="grid-con">
+<h2 class="hidden">Section content 2</h2>
+    <div class="col-span-full ">
+        <video class="player" controls preload="metadata" poster="images/placeholder.jpg">
+            <source src="video/freedom_celebration.mp4" type="video/mp4">
+            <p>Ooops, something went wrong. You may be using an oudated browser or have javascript disabled.</p>
+        </video>
+            
+        </div>
+
+<!--WOR-->
+<article class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-3 l-col-end-10">
+    <h2 class="hidden">SECTION CONTENT 3 SERVICE 2 DESCRIPTION</h2>
+
+     <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10"><p class="btn_text">BTN</p></div>
+</article>
+     
+    <article class="col-start-2 col-end-4 m-col-start-10 m-col-end-13 l-col-start-10 l-col-end-13">
+        <h2 class="hidden">SECTION CONTENT 3 SERVICE 3 DESCRIPTION</h2>
+       
+        <div class="box col-start-2 col-end-4 m-col-start-10 m-col-end-13 l-col-start-10 l-col-end-13"><p class="btn_text">BTN</p></div>
+    </article>
+
+    <article class="col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-3 l-col-end-10">
+        <h2 class="hidden">SECTION CONTENT 3 SERVICE 2 DESCRIPTION</h2>
+    
+         <div class="box col-start-2 col-end-4 m-col-start-4 m-col-end-10 l-col-start-4 l-col-end-10"><p class="btn_text">BTN</p></div>
+    </article>
+         
+        <article class="col-start-2 col-end-4 m-col-start-10 m-col-end-13 l-col-start-10 l-col-end-13">
+            <h2 class="hidden">SECTION CONTENT 3 SERVICE 3 DESCRIPTION</h2>
+           
+            <div class="box col-start-2 col-end-4 m-col-start-10 m-col-end-13 l-col-start-10 l-col-end-13"><p class="btn_text">BTN</p></div>
+        </article>
+
+</section>
+ 
+
+
+<footer id="footer-hero" class="footer_hero">
+    <div class="grid-con">
+        <section id="footer-contact-info" class="col-span-full m-col-start-2 m-col-end-5">
+            <h4 class="footer_name">RODRIGO NASCIMENTO</h4>
+        </section>
+
+        <div class="grid-con">
+            <section  class="col-span-full m-col-start-6 m-col-end-12">
+                <h2 class="hidden">social media</h2>
+                <h4 class="h4_follow">Follow me</h4>
+                <div class=" social_media col-start-1 col-end-3 m-col-start-6 m-col-end-12">
+                    <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+                    <a href="#"><i class="social_media_icon fab fa-instagram fa-3x"></i> </a> 
+                </div>
             </section>
         </div>
-        <div class="grid-con" id="founders">
-            <section class="col-span-4 card">
-                <img src="https://placehold.co/600x400/png">
-                <h2>Daniel Archer</h2>
-                <p>Daniel Archer, a co-founder of HarmoniGuitars, was born in 1950 with a profound love for music
-                    coursing through his veins. Raised in the same picturesque town where HarmoniGuitars would later be
-                    established, he discovered his passion for guitars at a young age. Daniel's exceptional skills as a
-                    craftsman and his innate musical talent made him the driving force behind the company's guitar
-                    designs.</p>
+    </div>
+</footer>
 
-                <p>With an insatiable curiosity, Daniel tirelessly experimented with various materials and construction
-                    techniques, seeking to create instruments that not only looked beautiful but also produced
-                    enchanting sounds. His commitment to quality and innovation laid the foundation for HarmoniGuitars'
-                    success. Despite the company's global recognition, Daniel remained grounded, ever the music
-                    enthusiast, pouring his heart and soul into every guitar he crafted.</p>
-            </section>
-            <section class="col-span-4 card">
-                <img src="https://placehold.co/600x400/png">
-                <h2>Benjamin Harper</h2>
-                <p>Benjamin Harper, the other half of HarmoniGuitars' founding duo, was born in 1952, just a stone's
-                    throw away from Daniel's childhood home. Like Daniel, Benjamin's love for music was a lifelong
-                    affair. His artistic sensibility and keen eye for detail complemented Daniel's craftsmanship
-                    perfectly. Benjamin was responsible for the exquisite designs and aesthetics that set HarmoniGuitars
-                    apart.</p>
-
-                <p>His artistic touch could turn a simple piece of wood into a work of art that not only sounded divine
-                    but was visually captivating. Benjamin's dedication to making each HarmoniGuitar a unique
-                    masterpiece made the instruments cherished by musicians and collectors alike. His harmonious blend
-                    of artistry and practicality played a pivotal role in shaping the company's identity.</p>
-            </section>
-            <section class="col-span-4 card">
-                <img src="https://placehold.co/600x400/png">
-                <h2>Colin Macklin</h2>
-                <p>Colin Macklin, a close friend and trusted collaborator of Daniel and Benjamin, joined the
-                    HarmoniGuitars team in the late 1970s. Born in 1954, Colin brought a different dimension to the
-                    company. His expertise in woodworking and technical craftsmanship complemented the founders' vision,
-                    allowing them to take their guitars to new heights.</p>
-
-                <p>Colin was the wizard behind the scenes, the one who ensured that every technical detail of the
-                    guitars was finely tuned to perfection. His meticulous attention to detail and unwavering commitment
-                    to quality control played a crucial role in the company's ability to produce instruments that were
-                    not only beautiful but also reliable and consistent in their performance.</p>
-            </section>
-        </div>
-    </main>
-    <footer class="grid-con">
-        <p class="col-span-full">&copy; 2003 - HarmoniGuitars</p>
-    </footer>
-
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
     <script src="js/main.js"></script>
-</body>
+    
 
+</body>
 </html>
