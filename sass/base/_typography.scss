@@ -1,0 +1,435 @@
+.project_ti{
+    font-family: 'poppins';
+    font-size: 13px;
+    font-weight: bold;
+    color: #2d27fd
+}
+
+.p_title_black {
+    font-size: 14px;
+    color: #1F1F1F;
+    text-align: center;
+
+   }
+
+   .p_title_black_center {
+    font-size: 14px;
+    color: #1F1F1F;
+    text-align: center;
+
+   }
+
+   .about-title_prj {
+    text-align: left;
+    margin-bottom: 0px;
+margin-top: 30px;}
+
+   .h2_title_center{
+
+    margin-bottom: auto
+
+   }
+
+   .h5_work_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    text-align: CENTER;
+   }
+
+   .h5_development_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    text-align: CENTER;
+   }
+
+
+
+
+   
+
+   .p_title_black_c {
+    font-size: 14px;
+    color: #1F1F1F;
+    text-align: center;
+    margin-bottom: 20px;
+
+   }
+
+
+.h2_more_info{
+    font-size: 20px;
+    font-family: "poppins";
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+.h2_contact{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+
+.error_form{
+    font-family: 'poppins';
+    font-size: 15px;
+    color: red;
+}
+
+.h3_box_hero{
+
+    font-size: 50px;
+    line-height: 40PX;
+
+}
+
+.h3_box_details_hero {
+    font-size: 50px;
+    line-height: 20PX;
+    margin-bottom: 25PX;
+    position: relative;
+}
+
+
+
+.h4_box_hero{
+
+    font-size: 40px;
+    line-height: 60PX;
+
+}
+
+.p_hero{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.p_roles{
+    font-size: 13px;
+}
+
+.span_hero{
+    font-weight: bold;
+}
+
+.work_text{
+    text-align: center;
+    margin-top: -6%;
+    
+  }
+
+  .work_prj_text{
+    text-align: center;
+    margin-top: 0%;
+    
+  }
+
+
+  .text_details{
+    text-align: left;
+    margin-top: -6%;
+    
+  }
+
+  .research_details{
+    text-align: left;
+    margin-top: -6%;
+    
+  }
+
+  
+
+  .development_details{
+    text-align: left;
+    margin-top: -6%;
+    
+  }
+
+  .h4_span_white{
+    color:#ffffff;
+  line-height: 60px;
+  }
+
+  .h4_span_yellow{
+    color:#FEF107 ;
+  }
+
+  .p_span_white{
+    color: #ffffff;
+  }
+
+
+.h4_box_contact{
+    font-size: 20px;
+    color: #2d27fd;
+    text-align: center;
+    padding: 30px;
+}
+
+.h2_contact{
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    font-size: 50px;
+
+}
+
+.p_contact{
+    font-size: 14px;
+    color: #fff;
+}
+
+.p_title_white{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -60px;
+}
+
+.span_number{
+    background-color: #2d27fd;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 5px;
+    
+    padding-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.h2_title_center_prj{
+
+margin-bottom: 20px; 
+
+}
+
+.box_titles_prj {
+    height: 55px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 210px;
+}
+
+.p_hero_details {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px; 
+    margin-left: 0;
+    color: rgb(255, 255, 255); 
+}
+
+.Ideation_details {
+    text-align: left;
+    margin-top: -27px;
+    margin-bottom: 50px;
+    width: 100%;}
+  
+  
+
+
+
+@media screen and (min-width: 768px) {
+
+    .p_hero_details {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 20px; 
+        margin-left: 0;
+        color: white; 
+    }
+      
+
+    .h5_work_title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .h5_development_title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+
+    .Ideation_details {
+        text-align: left;
+        margin-top: 13px;
+        margin-bottom: 50px;
+        width: 100%;}
+
+
+
+    .project_ti{
+    font-size: 16px;
+}
+
+
+.h3_box_details_hero {
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: -555PX;
+    position: relative;
+}
+
+.h2_more_info {
+    font-size: 26px;
+    margin-top: 16px;
+
+    margin-bottom: -20px;
+}
+
+.work_text{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .work_prj_text{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .text_details{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+
+  .research_details{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+
+  .development_details{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 50px;
+  }
+
+  
+
+
+
+.p_title_black {
+
+    text-align: left;
+
+   }
+
+
+
+
+
+ 
+
+.h3_box_hero{
+
+    font-size: 60px;
+    line-height: 50PX;
+    margin-bottom: 25PX;
+
+}
+
+.h4_box_hero{
+
+    font-size: 30px;
+    line-height: 40PX;
+    margin-bottom: 5PX;
+}
+
+.p_hero{
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 0px;
+    
+}
+
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  
+
+    .work_text{
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      .work_prj_text{
+        text-align: center;
+        margin-top: 0px;
+      }
+
+
+
+    .p_roles{
+        font-size: 14px;
+    }
+
+    .p_contact{
+        font-size: 18px;
+        text-align: left;
+         margin-left: 20%;
+        margin-top: -30px;
+        
+        }
+        
+        .h2_contact{
+            text-align: left;
+            font-size: 70px;
+            width: 360px;
+            line-height: 70px;
+            margin-left: 20%;
+        
+        }
+
+    .p_hero{
+        line-height: 25px;
+    }
+
+    .h3_box_hero{
+
+        font-size: 80px;
+        line-height: 80PX;
+        margin-bottom: 25PX;
+    
+    }
+    
+    .h4_box_hero{
+    
+        font-size: 40px;
+        line-height: 60PX;
+        margin-bottom: 5PX;
+    }
+
+    .p_title_white{
+        font-size: 14px;
+        color: #fff;
+        text-align: left;
+     margin-left: 20%;
+     margin-bottom: 30px;
+     margin-top: 10px;
+    }
+}
