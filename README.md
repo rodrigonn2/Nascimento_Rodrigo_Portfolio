@@ -48,4 +48,6 @@ To my family who supported me in this dream adventure and to my professors speci
 https://www.pexels.com/photo/photo-of-imac-near-macbook-1029757/
 https://www.pexels.com/photo/smiling-woman-wearing-blue-sleeveless-top-2090658/
 https://www.pexels.com/photo/keyboard-and-mouse-on-beige-background-3184460/
+https://www.pexels.com/photo/photo-of-imac-near-macbook-1029757/
+https://www.freepik.com/free-vector/new-modern-realistic-front-view-black-iphone-mockup-isolated-white-mobile-template-vector_33632328.htm#fromView=search&page=1&position=1&uuid=81d47063-6b8d-40c6-af2a-2980f2585a7f&new_detail=true
 
