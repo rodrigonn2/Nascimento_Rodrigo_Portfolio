@@ -40,5 +40,12 @@ October 2024
 
 
 ## Special thanks
-To my family who supported me in this dream adventure and to my professors specially Jarrod, Rob and Joe
+To my family who supported me in this dream adventure and to my professors specially Jarrod, Marco, Rob and Joe
+
+
+## Image References:
+
+https://www.pexels.com/photo/photo-of-imac-near-macbook-1029757/
+https://www.pexels.com/photo/smiling-woman-wearing-blue-sleeveless-top-2090658/
+https://www.pexels.com/photo/keyboard-and-mouse-on-beige-background-3184460/
 
