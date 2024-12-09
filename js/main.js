@@ -75,7 +75,8 @@ gsap.from(".box_text_over", {
     },
     duration: 1.5,
     opacity: 0,  
-    y: 50,       
+    y: 50,    
+    delay: 0.3, 
     ease: "power2.out",
 });
 
