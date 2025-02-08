@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-   require_once('includes/connect.php');
+
+require_once('includes/connect.php');
+$query ="SELECT p.id as p_id, pi.id as pic_id, pi.IMG_NAME, pi.IMG_CATEGORY, p.TITLE, p.ROLES from PROJECTS as p, PROJECT_IMAGES as pi WHERE p.id = pi.PROJECTS_ID AND pi.IMG_CATEGORY = 'overview'";
+$stmt = $connection->prepare($query);
+$stmt->execute();
 
 
-    $query = "SELECT p.id as p_id, pi.id as pic_id, pi.IMG_NAME, pi.IMG_CATEGORY, p.TITLE, p.ROLES from PROJECTS as p, PROJECT_IMAGES as pi WHERE p.id = pi.PROJECTS_ID AND pi.IMG_CATEGORY = 'overview'";
-    $results = mysqli_query($connect, $query);
-
+//require_once('includes/connect.php');
+//$stmt = $connection->prepare("SELECT p.id as p_id, pi.id as pic_id, pi.IMG_NAME, pi.IMG_CATEGORY, p.TITLE, p.ROLES from PROJECTS as p, PROJECT_IMAGES as pi WHERE p.id = pi.PROJECTS_ID AND pi.IMG_CATEGORY = 'overview'";
+//$results = mysqli_query($connect, $query);
 
     ?>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -155,8 +160,7 @@
 
     <?php
 
-while($row = mysqli_fetch_array($results)) {
-
+while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
     echo '<div class="project_link col-span-full">
         <a href="details.php?id='.$row['p_id'].'"><img src="images/'.$row['IMG_NAME'].'" class="prj_img" alt="project image" /></a>
         <h3 class="project_ti">'.$row['TITLE'].'</h3>
@@ -165,7 +169,11 @@ while($row = mysqli_fetch_array($results)) {
         <a href="details.php?id='.$row['p_id'].'" class="project_button">MORE</a>
     </div>';
 }
-?>
+
+$stmt = null;
+
+?> 
+
 </section>
 
 <section class="full-width-grid container_contact_n" id="contact">
@@ -179,6 +187,8 @@ while($row = mysqli_fetch_array($results)) {
     <div class="box_form_contact col-span-full m-col-span-full l-col-start-6 l-col-end-12">
       <h4 class="h4_box_contact">DROP YOUR MESSAGE HERE</h4>
       <form method="post" action="sendmail.php">
+
+      <input type="hidden" name="submitted" value="1">
 
     <label for="name" class="label_contact">Name</label>
     <p><input type="text" class="input_contact" name="name" id="name"></p>

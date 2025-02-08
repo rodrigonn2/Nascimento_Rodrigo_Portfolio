@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Dec 09, 2024 at 03:06 AM
+-- Generation Time: Feb 07, 2025 at 02:54 PM
 -- Server version: 8.0.35
 -- PHP Version: 8.2.20
 
@@ -66,7 +66,21 @@ INSERT INTO CONTACT (ID, NAME, PHONE, EMAIL, MESSAGE) VALUES
 (2, 'Rob', '226 777 88 99', 'rob@rob.ca', 'Great Job'),
 (3, 'Tina', '226 888 99 99', 'tina@tina.com', 'Cool work'),
 (7, 'Rodrigo Nobre do Nascimento', '2269772149', 'rodrigonn@gmail.com', 'TROXA'),
-(8, 'Rogerio Ceni', '5505050505050', 'rogerio@spfc.com.br', 'TEST IMAGE');
+(8, 'Rogerio Ceni', '5505050505050', 'rogerio@spfc.com.br', 'TEST IMAGE'),
+(9, 'lalala', '1211323', 'klalalal@gmail.com', 'qwqwqw'),
+(10, 'rodrigo', '1122222333', 'rodrigonn@gmail.com', 'this is a contact'),
+(11, 'teste', '129020020000', 'teste@teste.com.br', '1223003030'),
+(12, 'teste', '129020020000', 'teste@teste.com.br', '1223003030'),
+(13, 'teste', '129020020000', 'teste@teste.com.br', '1223003030'),
+(14, 'rodriguinho', '22232444', 'alendadoscodigos@lenda.com.br', 'eu sou foda'),
+(17, 'rodri', '12345678', 'rodri@rodri.com', 'baddreams with code'),
+(18, 'Fernnada', '1234590890', 'medina@medina.com', 'te amo'),
+(20, 'Alfredo', '12345677788', 'safado@safado.com.br', 'au au'),
+(22, 'teste', '123456789', 'teste@teste.com.br', 'test'),
+(24, 'rodrigo', '123445677', 'rodrigo@rodrigo.com', 'crianças'),
+(26, 'rtr', '12345678', 'rere@ddd.com', 'hahah'),
+(28, 'odeio o chris', '1234567', 'chris@chris.com', 'asasasas'),
+(29, 'odeio o chris', '1234567', 'chris@chris.com', 'asasasas');
 
 -- --------------------------------------------------------
 

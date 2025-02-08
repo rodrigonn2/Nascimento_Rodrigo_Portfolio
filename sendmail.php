@@ -23,7 +23,7 @@ if(empty($name)) {
 }
 
 if(empty($msg)) {
-    $errors['message'] = 'Comment field cant be empty';
+    $errors['message'] = 'Message field cant be empty';
 }
 
 if(empty($phone)) {
@@ -42,9 +42,19 @@ if(!empty($errors)) {
     }
 } else {
 
-    $query = "INSERT INTO CONTACT (NAME, EMAIL, PHONE, MESSAGE) VALUES ('$name', '$email', '$phone', '$msg')";
 
-    if(mysqli_query($connect, $query)) {
+    $query = "INSERT INTO CONTACT (NAME, EMAIL, PHONE, MESSAGE) VALUES (?, ?, ?, ?)";
+    $stmt = $connection->prepare($query);
+    
+    $stmt->bindParam(1, $name, PDO::PARAM_STR);
+    $stmt->bindParam(2, $email, PDO::PARAM_STR);
+    $stmt->bindParam(3, $phone, PDO::PARAM_STR);
+    $stmt->bindParam(4, $msg, PDO::PARAM_STR);
+    $stmt->execute();
+    
+    $stml = null;
+
+    if ($stmt->execute()) {
   
         $to = 'rodrigonn@gmail.com';
         $subject = 'Message from your Portfolio site!';
