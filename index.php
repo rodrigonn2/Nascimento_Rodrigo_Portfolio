@@ -18,13 +18,26 @@ $stmt->execute();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Nascimento</title>
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/983615787b.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/main.css">
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script> 
+<script type="module" defer src="js/animations.js"></script>
+<script src="https://kit.fontawesome.com/983615787b.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+
+
+<script defer src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+
+<script type="module" defer src="js/menu.js"></script>
+<script type="module" defer src="js/animations.js"></script>
+<script type="module" defer src="js/contact.js"></script>
+<script type="module" defer src="js/video.js"></script>
+
 </head>
 <body>
     <h1 class="hidden">Rodrigo Nascimento Portfolio</h1>
@@ -180,13 +193,13 @@ $stmt = null;
 <h2 class="hidden">CONTACT</h2>
     <div class="box_title_contact  col-span-full m-col-start-1 m-col-end-7">
     <p class="p_title_white">CONTACT</p>
-        <h2 class="h2_contact">LET'S TALK!</h2>
+        <h2 class="h2_contact_vn">LET'S TALK!</h2>
         <p class="p_contact">Feel free to reach out. It would be a pleasure to connect or take a coffee!</p>
     </div>
     
     <div class="box_form_contact col-span-full m-col-span-full l-col-start-6 l-col-end-12">
       <h4 class="h4_box_contact">DROP YOUR MESSAGE HERE</h4>
-      <form method="post" action="sendmail.php">
+      <form method="post" action="snd_email.php" id="contact_rodri">
 
       <input type="hidden" name="submitted" value="1">
 
@@ -205,6 +218,7 @@ $stmt = null;
 
 
     <input type="submit" class="send_button" value="SEND">
+    <section id="feedback"><p>*Please add info to all fields</p></section>
 </form>
 </div>
 </section>
@@ -230,10 +244,10 @@ $stmt = null;
             </section>  
           
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-    <script src="js/main.js"></script>
+   <script src="js/main.js"></script>-->
     
 
 </body>
