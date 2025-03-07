@@ -54,13 +54,26 @@ $hero_images = $stmt7->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Nascimento</title>
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/983615787b.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/main.css">
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script> 
+<script type="module" defer src="js/animations.js"></script>
+<script src="https://kit.fontawesome.com/983615787b.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+
+
+<script defer src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+
+<script type="module" defer src="js/menu.js"></script>
+<script type="module" defer src="js/animations.js"></script>
+<script type="module" defer src="js/contact.js"></script>
+<script type="module" defer src="js/video.js"></script>
+
 </head>
 
 <body>
@@ -274,10 +287,8 @@ $hero_images = $stmt7->fetchAll(PDO::FETCH_ASSOC);
                 </div>
             </section>   
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-    <script src="js/main.js"></script>
+
+    <!--script src="js/main.js"></script>-->
     
 
 </body>

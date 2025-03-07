@@ -1,3 +1,9 @@
+
+
+
+
+
+
 .project_ti{
     font-family: 'poppins';
     font-size: 13px;
@@ -46,9 +52,22 @@ margin-top: 30px;}
     text-align: CENTER;
    }
 
+.h2{
+   font-size: 40px;
+   line-height: 50px;
+   margin-bottom: 10px;
+   font-family: "poppins";
+   margin-top: -16px;
+}
 
 
-
+.h2_contact_vn {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 12px;
+    line-height: 60px;
+    margin-top: -35px;}
    
 
    .p_title_black_c {
@@ -72,6 +91,7 @@ margin-top: 30px;}
     color: #fff;
     font-size: 30px;
     margin-bottom: 32px;
+    line-height: 20px;
   }
 
 .error_form{
@@ -120,7 +140,7 @@ margin-top: 30px;}
 
 .work_text{
     text-align: center;
-    margin-top: -6%;
+    margin-top: -12%;
     
   }
 
@@ -172,13 +192,13 @@ margin-top: 30px;}
     padding: 30px;
 }
 
-.h2_contact{
-    text-align: center;
-    color: #fff;
-    line-height: 20px;
-    font-size: 50px;
+//.h2_contact{
+    //text-align: center;
+   // color: #fff;
+   // line-height: 20px;
+   // font-size: 50px;
 
-}
+//}
 
 .p_contact{
     font-size: 14px;
@@ -242,6 +262,11 @@ margin-bottom: 20px;
 
 
 @media screen and (min-width: 768px) {
+.h2{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
 
     .p_hero_details {
         font-size: 16px;
@@ -369,6 +394,15 @@ margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
+
+    .h2_contact_vn {
+        text-align: left;
+        margin-top: -15px;
+        font-size: 70px;
+        width: 360px;
+        line-height: 70px;
+        margin-left: 20%;
+        margin-bottom: 50px;}
 
   
 

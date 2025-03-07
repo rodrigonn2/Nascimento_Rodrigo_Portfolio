@@ -59,7 +59,7 @@
     border-radius: 0px;
     text-align: center;
     width: 100%;
-    height: 220px;
+    height: auto;
     margin-top: 25px;
   }
 
@@ -91,7 +91,7 @@
     border-radius: 0px;
     text-align: center;
     width: 100%;
-    height: 321px;
+    height: auto;
     margin-top: -59PX;
     padding-top: 85px;
   }
@@ -249,28 +249,64 @@
     margin-top: 25px;
   }
 
-  .box_form_contact {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+  .box_title_add_Project{
+    background-color: #02193d;
+    height: 160px;
     border-radius: 0px;
+    text-align: center;
     width: 100%;
-    height: auto;
     margin-top: 25px;
   }
+
+  .box_form_contact {
+
+    background-color: #fff;
+    border-radius: 0px;
+    width: 137%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: -54px;
+  }
+
+  .box_add_project_form {
+    background-color: #ffffff;
+}
 
   .container_work_n {
     margin-bottom: 30px;
     margin-top: 60px;
     width: 100%;
+    margin-top: 60px;
+    
   }
 
+  .image-preview_adm {
+    max-width: 80px;
+    max-height: 80px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
   .container_contact_n {
+    margin-bottom: 24px;
+    height: auto;
+    background-color: #01193d;
+    margin-top: 30px;
+    padding: 70px;
+    position: relative; 
+    box-sizing: border-box;  
+    transition: padding-bottom 0.3s ease-in-out;  
+  }
+
+  .container_add_project{
     margin-bottom: 30px;
-    height: 950px;
+    height: 3000px;
     background-color: #01193D;
     margin-top: 30px;
     padding: 70px;
+
   }
+
 
   .box_work {
     background-color: rgb(255, 255, 255);
@@ -391,10 +427,10 @@
 .box_titles{
 
 
-    padding: 20px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom:50px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 50px;
   }
 
   .box_titles_prj {
@@ -425,6 +461,15 @@
 
   .prj_img{
     width: 100%;
+    background-color: #e6e6e6;
+    align-items: center;
+    /* height: auto; */
+    margin-top: 0px;
+    border: #fff solid 3px;
+  }
+
+  .adm_prj_img{
+    width: 10%;
     background-color: #e6e6e6;
     align-items: center;
     /* height: auto; */
@@ -519,6 +564,19 @@ margin-top: -30%;
 
 
   @media screen and (min-width: 768px) {
+
+    .box_form_contact {
+
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+    }
+
+    .container_work_n {
+      margin-bottom: 30px;
+      margin-top: 130px;
+      width: 100%;
+    }
 
 
     .box_development {
@@ -693,6 +751,15 @@ margin-top: -30%;
 
     .prj_img{
       width: 100%;
+      background-color: #e6e6e6;
+      align-items: center;
+      transform: scale(1); 
+      margin-top: 0px;
+      border: #fff solid 3px;
+    }
+
+    .adm_prj_img{
+      width: 10%;
       background-color: #e6e6e6;
       align-items: center;
       transform: scale(1); 
@@ -910,6 +977,21 @@ margin-top: -30%;
 
       }
 
+      .adm_prj_img{
+        width: 10%;
+        background-color: #e6e6e6;
+        align-items: center;
+        filter: grayscale(100%);
+        transition: filter 0.5s ease;
+        margin-top: 0px;
+        border: #fff solid 3px;
+      }
+  
+      .adm_prj_img:hover{
+        filter: grayscale(0%); 
+
+      }
+
       .project_link {
         grid-column: span 4;
         width: 92%;
@@ -931,9 +1013,22 @@ margin-top: -30%;
         margin-right: 9px;
           }
 
+        .container_contact_n {
+          margin-bottom: 24px;
+          background-color: #01193d;
+          margin-top: 30px;
+          padding: 70px;
+         
+      }
+       
 
-      .container_contact_n { 
-        height: 760px;
+       .container_add_p { 
+        height: 3760px;
+        background-color: #02193d;
+       }
+
+       .container_add_project { 
+        height: 3000px;
        }
 
 
@@ -946,15 +1041,42 @@ margin-top: -30%;
         margin-top: -7px;
     }
 
-
-    .box_form_contact {
-      background-color: #fff;
-      border-radius: 0px;
-      width: 38%;
-      margin-left: 750px;
-      height: 659px;
-      margin-top: -224px;
+    .box_title_add_Project {
+      height: 160px;
+      border-radius: -60px;
+      text-align: center;
+      width: 510px;
+      height: 500px;
+      margin-top: -7px;
   }
+
+
+  .box_form_contact {
+    background-color: #fff;
+    border-radius: 0px;  
+    width: 38%;
+    margin-left: 750px; 
+    margin-top: -224px;
+    height: auto;  
+    padding: 20px;  
+    box-sizing: border-box;  
+    transition: height 0.3s ease-in-out;
+}
+
+
+
+.box_form_contact {
+    transition: height 0.3s ease-in-out;  
+}
+
+  .box_add_project_form {
+    background-color: #ffffff;
+    border-radius: 0px;
+    width: 38%;
+    margin-left: 750px;
+    height: 2670px;
+    margin-top: -209px;
+}
 
 
  
